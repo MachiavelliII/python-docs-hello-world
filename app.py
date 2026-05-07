@@ -4,6 +4,6 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return '''
-    <script>alert("test")</script>
-    Hello, World!
+    <script>alert("PoC by machiavelli")</script>
+    <h1>PoC by machiavelli</h1>
     '''
